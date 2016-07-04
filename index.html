@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body ng-controller="mainCtrl as vm">
+    <first-component callback="vm.callbackFunc(retValue)"></first-component>
+    <script src="Lib/angular/angular.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/main.ctrl.js"></script>
+    <script src="app/first-component.ctrl.js"></script>
+    <script src="app/first-component.cmp.js"></script>
+</body>
+</html>
